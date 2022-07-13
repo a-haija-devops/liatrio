@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: liatrio-cluster
+  region: us-east-2
+
+managedNodeGroups:
+- name: liatrio-1
+  labels:
+    role: demo-1
+  instanceType: t2.small
+  desiredCapacity: 1
+  volumeSize: 20

@@ -22,7 +22,7 @@ $ eksctl create cluster -f k8s/cluster.yaml
 ```bash
 $ kubectl apply -f k8s/express.yaml 
 ```
-## Optionally you can change something in the code and test the automated imaged build and deploy
+## Optionally you can change something in the code and test the automated image build and deploy
 
 # Clean up steps:
 ## Delete EKS Cluster

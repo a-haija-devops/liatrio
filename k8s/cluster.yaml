@@ -9,6 +9,6 @@ managedNodeGroups:
 - name: liatrio-1
   labels:
     role: demo-1
-  instanceType: t2.micro
+  instanceType: t2.small
   desiredCapacity: 1
   volumeSize: 20

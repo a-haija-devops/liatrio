@@ -1,0 +1,4 @@
+/root/
+    /app/
+        .gitignore
+        /node_modules/
